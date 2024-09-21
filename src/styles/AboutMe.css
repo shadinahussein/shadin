@@ -1,0 +1,93 @@
+
+#about{ 
+    font-family: 'Nunito', sans-serif;
+    margin: auto;
+    padding-top: 150px;
+    color: var(--slate);
+}
+
+.section-header {
+    font-weight: 700;
+    font-size: 2.5rem; /* Use rem for scalability */
+    color: var(--lightest-slate);
+    padding-left: 3%;
+}
+
+.about-content.container-fluid {
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 3%;     */
+}
+
+.section-body {
+    margin: 1%;
+    font-size: 1.25rem; /* Use rem for scalability */
+    text-align: justify;
+    padding: auto; /* Add padding to avoid content touching edges */
+}
+
+.section-body a {
+    color: var(--lime-green);
+    text-decoration: none;
+}
+
+.tech-stack-container {
+    width: 80%; /* Make tech stack container full-width */
+}
+
+.tech-stack-row {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap if necessary */
+}
+
+.section-body ul {
+    list-style-position: inside;
+    list-style-type: '/>   ';
+    font-weight: 100;
+    padding-left: 0; /* Remove default padding */
+}
+
+.tech-stack li, .teck-stack li {
+    margin-bottom: 0.5rem; /* Add margin between list items */
+}
+
+.section-body li::marker {
+    font-weight: 100;
+    color: var(--lime-green);
+}
+
+.section-image {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center image horizontally */
+    
+}
+
+.section-image img {
+    max-width: 350px; /* Make image responsive */
+    height: auto;
+    border-radius: 0.5rem; /* Use rem for consistency */
+}
+
+@media screen and (max-width: 800px) {
+    .section-header {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+
+    .section-body {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+        padding: 0 0.5rem; /* Reduce padding for smaller screens */
+    }
+
+    .section-image img {
+        max-width: 250px; /* Ensure image scales down on smaller screens */
+    }
+}
+
+@media screen and (max-width: 700px) {
+    /* remove img col when when the screen is too small */
+    .section-image{
+        display: none;
+    }
+    
+}

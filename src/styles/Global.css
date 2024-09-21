@@ -1,0 +1,12 @@
+/* define color scheme throughout the web page */
+:root {
+    --navy: #00212B;
+    --sheer-navy: #6397e340;
+    --sheer-navy-highlight: #6396e309;
+    --light-navy: #2AA19844;
+    --slate: #8892b0;
+    --lightest-slate: #ccd6f6;
+    --lime-green: #e0ef7e;
+    /* b8b462 */
+    
+}

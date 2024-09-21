@@ -1,0 +1,31 @@
+
+#experience {
+    font-family: 'Nunito', sans-serif;
+    margin: auto;
+    padding-top: 150px;  /*give space to show header*/
+    color: var(--slate);
+}
+.experience-content{
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+.exp-tab-title{
+    color: var(--lightest-slate) !important;
+}
+
+.MuiTab-root {
+    padding: 5px, 15px !important;
+    font-size: 0.8rem !important;
+    font-weight: 300 !important;
+    width: wrap-content !important;  
+}
+
+.exp-tab-title.Mui-selected {
+    color: var(--lime-green) !important;
+}
+
+.MuiTabs-indicator {
+    background-color: var(--lime-green) !important;
+}
