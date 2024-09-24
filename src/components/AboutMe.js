@@ -55,7 +55,7 @@ export default function About() {
                 </Col>
 
                 <Col className="section-image">
-                    <img src={'/assets/Shadin.png'} alt="Shadin Hussein"></img>
+                    <img src={`${process.env.PUBLIC_URL}/Shadin.png`} alt="Shadin Hussein"></img>
                 </Col>
 
 
